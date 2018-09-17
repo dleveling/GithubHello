@@ -15,6 +15,8 @@ Issue";//copy Channel access token ตอนที่ตั้งค่ามา
     $arrayHeader[] = "Content-Type: application/json";
     $arrayHeader[] = "Authorization: Bearer {$accessToken}";
 
+    // Hello GitHub
+
     //รับข้อความจากผู้ใช้
     $type_message = $arrayJson['events'][0]['message']['type'];
 
